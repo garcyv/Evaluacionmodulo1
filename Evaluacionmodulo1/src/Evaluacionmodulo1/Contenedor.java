@@ -51,7 +51,7 @@ public class Contenedor {
 			Iterator<Iasesoria> lusrIterator = lusuarios.iterator();
 
 			while(lusrIterator.hasNext()){
-				// se utiliza iterador
+				// se utiliza iterador para permitir eliminacion
 				Iasesoria usr = lusrIterator.next(); 
 				
 				datos=usr.toString();
